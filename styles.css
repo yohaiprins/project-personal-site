@@ -1,0 +1,588 @@
+.navbar {
+  background-color: rgb(25, 73, 124);
+  height: 15vh;
+  position: fixed;
+  width: 100vw;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+  color: white;
+  z-index: 1000;
+  margin-top: 0%;
+}
+
+span {
+  padding-left: 15%;
+}
+
+.navbar1 {
+  position: relative;
+  right: 45%;
+  text-decoration: underline;
+  font-size: 3rem;
+  margin-top: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar1 {
+    position: relative;
+    right: 30%;
+    font-size: 2.5rem;
+  }
+}
+
+.navbar2 {
+  position: relative;
+  bottom: 55%;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar2 {
+    opacity: 0;
+  }
+}
+
+.blou {
+  background-color: rgb(25, 73, 124);
+  height: 100vh;
+  width: 100vw;
+  padding-top: 10%;
+  font: size 2.5rem;
+  margin-right: 0%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  .blou {
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 180vh;
+  }
+}
+
+.portfoliobtn {
+  background-color: rgb(60, 60, 204);
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  bottom: 25%;
+  left: 9%;
+  border: solid black;
+  font-family: cursive;
+  border-radius: 6px;
+}
+
+.portfoliobtn:hover {
+  background-color: rgb(25, 73, 124);
+  color: rgb(0, 0, 7);
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfoliobtn {
+    position: relative;
+    bottom: 7%;
+    right: 0%;
+    justify-content: center;
+
+  }
+}
+
+.phoneimg {
+  width: 50vw;
+  height: 80vh;
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .phoneimg {
+    height: 70vh;
+    width: 100vw;
+    position: absolute;
+    top: 50vh;
+    left: 1%;
+  }
+}
+
+.pblou {
+  width: 25vw;
+  margin-right: 0%;
+  display: inline-block;
+  position: relative;
+  right: -1%;
+  top: -10%;
+  font-size: 3rem;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .pblou {
+    position: relative;
+    top: 0%;
+  }
+}
+
+.pblou2 {
+  font-size: 1.5rem;
+  position: relative;
+  top: -20%;
+  right: -1%;
+}
+
+@media only screen and (max-width: 768px) {
+  .pblou2 {
+    position: relative;
+    top: -5%;
+  }
+}
+
+.white {
+  background-color: white;
+  width: 100vw;
+  height: min-content;
+}
+
+.gray {
+  background-color: grey;
+  width: 100vw;
+  height: min-content;
+  margin-bottom: 0%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: cursive;
+  display: inline-block;
+}
+
+.black {
+  background-color: black;
+  width: 100vw;
+  height: min-content;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  margin-top: 0%;
+  display: inline-block;
+}
+
+.hiremebtn {
+  color: white;
+  background-color: rgb(71, 70, 70);
+  border-radius: 6px;
+  padding: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.hiremebtn:hover {
+  background-color: black;
+  border-radius: 6px;
+}
+
+#about-me {
+  bottom: 100%;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  #about-me {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 0%;
+  }
+}
+
+.aboutme {
+  width: 50vw;
+  text-align: center;
+  font-family: cursive;
+  margin-top: 10%;
+  position: relative;
+  bottom: 10vh;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutme {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 9%;
+    width: 80vw;
+  }
+}
+
+.resumebtn {
+  background-color: rgb(60, 60, 204);
+  border: none;
+  color: white;
+  padding: 1.5vw 8vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  bottom: 25%;
+  left: 1%;
+  border: solid black;
+  font-family: cursive;
+  border-radius: 6px;
+}
+
+.resumebtn:hover {
+  background-color: black;
+  border-radius: 6px;
+}
+
+.services {
+  position: relative;
+  bottom: 10vh;
+  color: black;
+  text-align: center;
+  margin-bottom: 0%;
+  height: min-content;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+  .services {
+    position: relative;
+    bottom: 0vh;
+  }
+}
+
+.bg {
+  height: 40vh;
+  background-color: #55acee;
+  margin-left: 140%;
+  margin-top: 0%;
+  position: absolute;
+}
+
+.workspaceimg {
+    width: 20vw;
+    height: 40vh;
+    position: relative;
+    left: 50%;
+    bottom: 150%;
+}
+
+.workspaceimg::after {
+  content: "";
+  background-color: blue;
+  position: absolute;
+  right: 10px;
+  width: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .workspaceimg {
+    position: relative;
+    bottom: 15%;
+    left: 10%;
+    height: 40vh;
+    width: 70vw;
+  }
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .flip-card {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.flip-container {
+  display: flex;
+  justify-content: space-around;
+  bottom: 30px;
+}
+.flip-container2 {
+  display: flex;
+  justify-content: center;
+  bottom: 50vh;
+  margin-top: 0%;
+  width: 50vw;
+  height: 50vh;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .hamborger {
+    opacity: 1;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  color: #fcfdfc;
+  font-size: 1.2em;
+  line-height: 1.6;
+  z-index: 1001;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+label .menu {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  z-index: 1001;
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  box-shadow:  0 0 0 0 #fff, 0 0 0 0 #fff;
+  cursor: pointer;
+  position: fixed;
+  font-size: 3rem;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  label .menu {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    top: -100px;
+    opacity: 1;
+    color: #3b5998;
+  }
+}
+
+label .hamburger {
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  width: 30px;
+  height: 2px;
+  background: #69d2e7;
+  display: block;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+label .hamburger:after,
+label .hamburger:before {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #69d2e7;
+}
+
+label .hamburger:before {
+  top: -10px;
+}
+
+label .hamburger:after {
+  bottom: -10px;
+}
+
+label input {
+  display: none;
+}
+
+label input:checked + .menu {
+  box-shadow: 0 0 0 100vh #fff; 
+  border-radius: 0;
+  opacity: 0;
+  color: #3b5998;
+}
+
+label input:checked + .menu .hamburger {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+label input:checked + .menu .hamburger:after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+label input:checked + .menu .hamburger:before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 0;
+}
+
+label input:checked + .menu + ul {
+  opacity: 1;
+}
+
+label ul {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: 0.25s 0s ease-in-out;
+  transition: 0.25s 0s ease-in-out;
+}
+
+label a {
+  margin-bottom: 1em;
+  display: block;
+
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .flip-card {
+    width: unset;
+    
+  }
+  .flip-container2 {
+    bottom: unset;
+    width: unset;
+    height: unset;
+    flex-direction: column;
+    display: unset;
+  }
+  .workspaceimg::after{
+    width: 10rem;
+    right: -59px;
+    height: 15rem;
+    top: -34px;
+    z-index: -1;
+  }
+  .workspaceimg {
+    position: relative;
+    bottom: 0;
+    left: 10%;
+    height: 40vh;
+    width: 70vw;
+  }
+  .flip-container{
+    display: unset;
+  }
+  .pblou{
+    width: 80vw;
+  }
+  #flip-card1{
+height: 250px;
+width: 450px;
+  }
+  #flip-card2{
+    
+  }
+.flip-card-front{
+    height: 300px;
+    width: 100vw;
+}
+}
+
+
+
